@@ -12,7 +12,7 @@ def bissection(f, xMin, xMax, tol):
 
     a = xMin;
     b = xMax;
-    err = b - a; #erro => tamanho do intervalo em que temos certeza de que há uma raiz
+    err = b - a; # erro => tamanho do intervalo em que temos certeza de que há uma raiz
     
     x_k = []; # array com os valores testados de x
     y_k = []; # array com os correspondentes f(x)
