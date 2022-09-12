@@ -5,6 +5,7 @@ Neste repositório encontram-se códigos úteis na disciplina de Cálculo Numér
 ## Conteúdos contemplados até então
 
 - Zeros de funções
-- Sistemas Lineares
-- Autovalores e Autovetores
+- Sistemas Lineares (incompleto)
+- Autovalores e Autovetores (incompleto)
+- Interpolação (incompleto)
 
