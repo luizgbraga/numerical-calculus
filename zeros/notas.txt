@@ -1,0 +1,27 @@
+1. CONDIÇÕES PARA A CONVERGÊNCIA DO MÉTODO DO PONTO FIXO
+
+    a) phi e phi' devem ser contínuas em I
+    b) o módulo de phi' deve ser menor que 1 para todo x em I
+    c) x0 deve estar em I
+
+2. CONDIÇÕES PARA APRESENTAR EXATAMENTE 1 RAIZ NA BISSEÇÃO
+
+    a) f(a) * f(b) < 0 (a função deve mudar de sinal em [a, b])
+    b) f deve ser contínua em [a, b]
+    c) f deve ser crescente ou decrescente em [a, b] (monótona)
+
+3. ORDENS DE CONVERGÊNCIA
+
+    a) MPF => Convergência LINEAR
+    b) NR com raízes SIMPLES => Convergência QUADRÁTICA
+    c) NR com raízes DUPLAS => Convergência LINEAR
+
+4. FUNÇÃO DE ITERAÇÃO
+
+    a) MPF => phi(x) = x (isolar o x)
+    b) NR => phi(x) = x - f(x)/f'(x)
+
+5. ERRO EM NEWTON-RAPHSON: |e_(k + 1)| = C * |e_k|
+
+    a) Raiz simples => C = f''(csi)/2
+    b) Raiz dupla => C = f'(csi)
