@@ -8,4 +8,5 @@ Neste repositório encontram-se códigos úteis na disciplina de Cálculo Numér
 - Sistemas Lineares
 - Autovalores e Autovetores
 - Interpolação (incompleto)
+- Integração
 
