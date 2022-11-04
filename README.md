@@ -7,6 +7,6 @@ Neste repositório encontram-se códigos úteis na disciplina de Cálculo Numér
 - Zeros de funções
 - Sistemas Lineares
 - Autovalores e Autovetores
-- Interpolação (incompleto)
+- Interpolação
 - Integração
 
