@@ -9,8 +9,8 @@ import numpy as np;
 import matplotlib.pyplot as plt;
 
 # constantes e condições iniciais
-S0 = 40;
-I0 = 8;
+S0 = 499;
+I0 = 1;
 R0 = 0;
 T = 24;
 N = 10;
@@ -24,7 +24,7 @@ def beta(N, T, S0, I0):
 def gama(m, n, T): 
     return m / (n * T);
 
-beta0 = beta(N, T, S0, I0);
+beta0 = beta(N, T, 40, 8);
 gama0 = gama(m, n, T);
 
 # precisão e intervalo
@@ -72,7 +72,7 @@ plt.title('Evolução');
 plt.xlabel('t');
 plt.ylabel('S(t), I(t), R(t)');
 plt.grid(True);
-plt.axis([t0, tf, 0, 50]);
+plt.axis([t0, tf, 0, 500]);
 
 plt.legend();
 plt.show();
