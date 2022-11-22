@@ -8,8 +8,6 @@ def P(x): return 0;
 def Q(x): return x ** 2;
 def F(x): return 0;
 
-dy = [P, Q, F];
-
 def odesys(y0, dy, dx, x0, xf):
     steps = round((xf - x0)/dx); 
     y = [np.zeros(steps + 1) for yk in y0];
