@@ -9,3 +9,4 @@ Neste repositório encontram-se códigos úteis na disciplina de Cálculo Numér
 - Autovalores e Autovetores
 - Interpolação
 - Integração
+- Equações Diferenciais Ordinárias (EDOs)
