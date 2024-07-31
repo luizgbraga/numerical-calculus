@@ -1,12 +1,10 @@
+# Numerical Calculus
 
-# Cálculo Numérico
+This repository contains useful Python scripts for numerical calculus at the undergraduate level:
 
-Neste repositório encontram-se códigos úteis na disciplina de Cálculo Numérico para o curso de Engenharia. Por opção, todos os códigos estão em Python.
-## Conteúdos contemplados até então
-
-- Zeros de funções
-- Sistemas Lineares
-- Autovalores e Autovetores
-- Interpolação
-- Integração
-- Equações Diferenciais Ordinárias (EDOs)
+- Function Zeros
+- Linear Systems
+- Eigenvalues and Eigenvectors
+- Interpolation
+- Integration
+- Ordinary Differential Equations (ODEs)
